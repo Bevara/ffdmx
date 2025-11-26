@@ -1,0 +1,19 @@
+{
+    "name": "ffdmx",
+    "description": "FFmpeg demultiplexer",
+    "filters":["ffdmx", "ffdmxpid", "ffavin"],
+    "help": "This module includes all demultiplexers from ffmpeg.",
+    "support": [
+      "image",
+      "audio",
+      "video"
+    ],
+    "sources":"https://codeload.github.com/Bevara/ffdmx/zip/refs/heads/main",
+    "filter_source":{
+        "ffdmx" : "ff_dmx.c",
+        "ffdmxpid" : "ff_dmx.c",
+        "ffavin" : "ff_dmx.c"
+    },
+    "licence_required":true,
+    "Format": ["AVI", "Matroska","WebM","MPEG-4","Ogg","AC-3","heic","Wave","MPEG-PS","ADTS","FLAC","AIFF","MPEG Audio","TIFF"]
+}

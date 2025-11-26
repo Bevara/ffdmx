@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.7)
+project(Filters)
+
+include(filters.cmake)
+
+add_definitions(-fpic)
+
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
+set(CMAKE_C_FLAGS "-O3 -Wall -Wextra")
+
+#set(USE_DEBUG "-g")
+#set(USE_FLAGS "${USE_DEBUG}")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${USE_FLAGS}")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${USE_FLAGS}")
+
+SET(FF_SRC_x264
+        ${CMAKE_CURRENT_SOURCE_DIR}/ff_dmx.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/ff_common.c
+)
+
+SET(FF_LIB_x264
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/libavcodec.a
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/libavutil.a
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/libavformat.a
+)
+
+SET(FF_INCLUDE_x264
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/ffmpeg
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+add_filter(ffdmx
+        "${FF_SRC_x264}"
+        "${FF_LIB_x264}"
+        []
+        GPAC_HAS_FFMPEG
+        "${FF_INCLUDE_x264}"
+        ""
+        "1")
