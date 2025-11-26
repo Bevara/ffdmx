@@ -2,7 +2,7 @@
     "name": "ffdmx",
     "description": "FFmpeg demultiplexer",
     "filters":["ffdmx", "ffdmxpid", "ffavin"],
-    "help": "This module includes all demultiplexers from ffmpeg.",
+    "help": "This filter includes all demultiplexers from ffmpeg.",
     "support": [
       "image",
       "audio",
