@@ -246,7 +246,8 @@ amrnb
 * brstm
 * evc
 * iff
-* image_qdraw_pipe m4v
+* image_qdraw_pipe
+* m4v
 * mvi
 * pcm_u32le
 *  sdr2
@@ -288,7 +289,8 @@ amrnb
 * aptx
 * cdg
 * flac
-* image2_alias_pix image_svg_pipe
+* image2_alias_pix
+* image_svg_pipe
 * mgsts
 * nistsphere
 *  pjs
@@ -321,7 +323,8 @@ argo_asf
 * codec2
 * fourxm
 * image_bmp_pipe
-* image_webp_pipe  mjpeg_2000
+* image_webp_pipe
+* mjpeg_2000
 * nut
 * pva
 * siff
