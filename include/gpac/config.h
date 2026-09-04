@@ -2,16 +2,19 @@
 #ifndef GF_CONFIG_H
 #define GF_CONFIG_H
 #define GPAC_CONFIGURATION "(emscripten build)"
+#define GF_STATIC static
+#define GF_NOT_EXPORTED
 #define GPAC_STATIC_BUILD
 #define GPAC_HAS_MTIM_NSEC
+#define GPAC_DISABLE_OGG
 #define GPAC_CONFIG_EMSCRIPTEN
+#define GPAC_SCHED_DEFAULT "free"
 #define GPAC_HAS_POLL
-#define GPAC_DISABLE_REMOTERY
+#define GPAC_DISABLE_RMTWS
 #define GPAC_HAS_STRLCPY
+#define GPAC_HAS_STRLCAT
 #define GPAC_HAS_SOCK_UN
 #define GPAC_HAS_IFADDRS
 #define GPAC_USE_GLES2
 #define GPAC_HAS_IPV6
-#define GPAC_HAS_FFMPEG
-#define FFMPEG_HAS_BSF
 #endif
