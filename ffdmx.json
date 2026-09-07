@@ -14,6 +14,5 @@
         "ffdmxpid" : "ff_dmx.c",
         "ffavin" : "ff_dmx.c"
     },
-    "licence_required":true,
-    "Format": ["AVI", "Matroska","WebM","MPEG-4","Ogg","AC-3","heic","Wave","MPEG-PS","ADTS","FLAC","AIFF","MPEG Audio","TIFF"]
+    "licence_required":true
 }
