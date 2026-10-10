@@ -15,5 +15,64 @@
         "ffavin" : "ff_dmx.c"
     },
     "licence_required":true,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "runtime": {
+        "ffdmx": {
+            "outputs": [
+                {
+                    "property": "GF_PROP_PID_AUDIO_FORMAT",
+                    "format": [
+                        "GF_AUDIO_FMT_U8",
+                        "GF_AUDIO_FMT_S16",
+                        "GF_AUDIO_FMT_S32",
+                        "GF_AUDIO_FMT_FLT",
+                        "GF_AUDIO_FMT_DBL",
+                        "GF_AUDIO_FMT_U8P",
+                        "GF_AUDIO_FMT_S16P",
+                        "GF_AUDIO_FMT_S32P",
+                        "GF_AUDIO_FMT_FLTP",
+                        "GF_AUDIO_FMT_DBLP"
+                    ]
+                }
+            ]
+        },
+        "ffdmxpid": {
+            "outputs": [
+                {
+                    "property": "GF_PROP_PID_AUDIO_FORMAT",
+                    "format": [
+                        "GF_AUDIO_FMT_U8",
+                        "GF_AUDIO_FMT_S16",
+                        "GF_AUDIO_FMT_S32",
+                        "GF_AUDIO_FMT_FLT",
+                        "GF_AUDIO_FMT_DBL",
+                        "GF_AUDIO_FMT_U8P",
+                        "GF_AUDIO_FMT_S16P",
+                        "GF_AUDIO_FMT_S32P",
+                        "GF_AUDIO_FMT_FLTP",
+                        "GF_AUDIO_FMT_DBLP"
+                    ]
+                }
+            ]
+        },
+        "ffavin": {
+            "outputs": [
+                {
+                    "property": "GF_PROP_PID_AUDIO_FORMAT",
+                    "format": [
+                        "GF_AUDIO_FMT_U8",
+                        "GF_AUDIO_FMT_S16",
+                        "GF_AUDIO_FMT_S32",
+                        "GF_AUDIO_FMT_FLT",
+                        "GF_AUDIO_FMT_DBL",
+                        "GF_AUDIO_FMT_U8P",
+                        "GF_AUDIO_FMT_S16P",
+                        "GF_AUDIO_FMT_S32P",
+                        "GF_AUDIO_FMT_FLTP",
+                        "GF_AUDIO_FMT_DBLP"
+                    ]
+                }
+            ]
+        }
+    }
 }
