@@ -14,7 +14,6 @@
         "ffdmxpid" : "ff_dmx.c",
         "ffavin" : "ff_dmx.c"
     },
-    "licence_required":true,
     "using": ["solver_1"],
     "runtime": {
         "ffdmx": {
@@ -74,5 +73,10 @@
                 }
             ]
         }
+    },
+    "patents": {
+        "status": "licence-required",
+        "note": "FFmpeg demultiplexers reaching patent-encumbered formats; marked by the maintainer",
+        "checked": "2026-10-16"
     }
 }
