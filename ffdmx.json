@@ -14,7 +14,7 @@
         "ffdmxpid" : "ff_dmx.c",
         "ffavin" : "ff_dmx.c"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "runtime": {
         "ffdmx": {
             "outputs": [
